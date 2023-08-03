@@ -2,9 +2,7 @@ trigger:
 - '*'
 
 pool:
-  #vmImage: ubuntu-latest
-  #commented out so i can run on local pipeline
-  name: 'Default'
+  vmImage: ubuntu-latest
 
 steps:
   - task: UseDotNet@2
